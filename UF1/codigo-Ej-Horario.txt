@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"> 
+    <style>
+        th, td {
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <p class="text-center">HORARIO</p>
+    <table class="table table-bordered">
+        <tr>
+            <th scope="row">Horas</th>
+            <th scope="row">Lunes</th>
+            <th scope="row">Martes</th>
+            <th scope="row">Miercoles</th>
+            <th scope="row">Jueves</th>
+            <th scope="row">Viernes</th>
+        </tr>
+        <tr>
+            <td>15:15</td>
+            <td rowspan="3">M04 Llenguatge de marques i sistemes de gestió de la informació</td>
+            <td rowspan="3">M02 i M10 Gestió i Administració de bases de dades</td>
+            <td>Tutoria</td>
+            <td rowspan="2">M03 Programació bàsica</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>16:15</td>
+            <td rowspan="2">M01 Implantació de sistemes operatius</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>17:15</td>
+            <td>M05 Fonaments de maquinari</td>
+            <td>M05 Fonaments de maquinari</td>
+        </tr>
+        <tr>
+            <td>18:15</td>
+            <td colspan="6">PATIO</td>
+        </tr>
+        <tr>
+            <td>18:45</td>
+            <td rowspan="3">M01 Implantació de sistemes operatius</td>
+            <td rowspan="3">M03 Programació bàsica</td>
+            <td rowspan="3">M02 i M10 Gestió i Administració de bases de dades</td>
+            <td rowspan="2">M12 FOL</td>
+            <td rowspan="2">M13 EIE</td>
+        </tr>
+        <tr>
+            <td>19:45</td>
+        </tr>
+        <tr>
+            <td>20:45</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+  </body>
+</html>

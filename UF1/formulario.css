@@ -1,0 +1,36 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+div {
+    border: 2px solid red;
+    padding: 10px 20px;
+}
+legend {
+    text-decoration: underline;
+    font-weight: bold;
+}
+#campo1 {
+    background-color: aqua;
+}
+#campo2 {
+    background-color: pink;
+}
+#campo3 {
+    background-color: yellow;
+}
+#campo4 {
+    background-color: green;
+}
+#campo5 {
+    background-color: rgb(216, 178, 178);
+}
+#campo6 {
+    background-color: rgb(255, 102, 0);
+}
+#campo7 {
+    background-color: lightcoral;
+}
+#campo8 {
+    background-color: rgb(37, 31, 24)
+}

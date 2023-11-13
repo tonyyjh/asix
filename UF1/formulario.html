@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+<h1>ENQUESTA PROFESSORAT</h1>
+<div>
+<fieldset id="campo1">
+    <legend>DADES PERSONALS</legend>
+    <p>Edat *<br><input type="number" name="edat" placeholder="inseriu l'edat"></p>
+    <p>Email<br><input type="email" name="correo" size="60"></p>
+    <p>Contrassenya *<br><input type="password" name="contraseña" placeholder="inseriu la contrassenya" size="60"></p>
+    <p>Data de naixement <br><input type="date" name="data" placeholder="dd/mm/aaaa"></p>
+    <i>*Camps obligatoris</i>
+    <br>
+    <br>
+</fieldset>
+<br>
+<fieldset id="campo2">
+    <legend>Moduls a evaluar</legend>
+    <select name="menu">
+        <option>Seleccioneu</option>
+        <option>M01</option>
+        <option>M02</option>
+        <option>M03</option>
+        <option>M04</option>
+        <option>M05</option>
+        <option>M12</option>
+        <option>M13</option>
+    </select>
+</fieldset>
+<br>
+<fieldset id="campo3">
+    <legend>Cicle</legend>
+    <input type="radio" name="ciclos" value="ASIX">ASIX
+    <input type="radio" name="ciclos" value="DAM">DAM
+    <input type="radio" name="ciclos" value="DAW">DAW
+    <input type="radio" name="ciclos" value="BIOINFORMÀTICA">BIOINFORMÀTICA
+</fieldset>
+<br>
+<fieldset id="campo4">
+    <legend>Professor a evaluar</legend>
+    <p>Nom Professor * <br><input type="text" name="nombre" placeholder="Inseriu el nom" size="60"></p>
+    <p>Grau de satisfacció del 0 al 10 <br><input type="range" name="rango"></p>
+    <p>Comentaris <br><textarea name="comentario" cols="55" rows="5" placeholder="Inseriu els comentaris"></textarea></p>
+</fieldset>
+<br>
+<fieldset id="campo5">
+    <legend>Explica alguna cosa sobre tu</legend>
+    <p>Ets repetidor? <br><input type="radio" name="casilla">Si<input type="radio" name="casilla">No</p>
+    <p>Color preferit <br><input type="color" name="colorElegido"></p>
+    <p>Dirección Web <br><input type="text" name="web"></p>
+    <p>Situació actual <br>
+        <select name="menu">
+            <option>Seleccioneu</option>
+            <option>Estudis</option>
+            <option>FCT</option>
+            <option>Estudis-FCT</option>
+            <option>Treballo-Estudis</option>
+        </select>
+    </p>
+</fieldset>
+<br>
+<fieldset id="campo6">
+    <legend>CURSOS EXTRES</legend>
+    <input type="checkbox" name="casilla1">Cloud Computing
+    <input type="checkbox" name="casilla2">Big Data
+    <input type="checkbox" name="casilla3">Unity 5
+</fieldset>
+<br>
+<fieldset id="campo7">
+    <legend>Data Enquesta</legend>
+    <p>Fecha: <input type="date" name="fecha"> Hora <input type="time" name="tiempo"></p>
+</fieldset>
+<br>
+<fieldset id="campo8">
+    <button>Envia</button>
+    <button>Esborra</button>
+    <button>Surt</button>
+</fieldset>
+</div>
+</body>
+</html>
